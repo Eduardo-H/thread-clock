@@ -37,7 +37,7 @@ public class Main {
 					break;
 				case 3:
 					clock.startChronometer();
-					Thread.currentThread().sleep(500);
+					Thread.currentThread().sleep(200);
 					break;
 				case 4:
 					clock.stopChronometer();

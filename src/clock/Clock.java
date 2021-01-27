@@ -145,10 +145,12 @@ public class Clock {
 		
 		public void pause() {
 			this.paused = true;
+			System.out.println("Crhonometer paused");
 		}
 		
 		public void unpause() {
 			this.paused = false;
+			System.out.println("Crhonometer unpaused");
 		}
 	}
 	
